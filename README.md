@@ -31,9 +31,17 @@ The system simulates real-world attack scenarios using a testbed with EC2 instan
 4. Mitigation Pipeline → Routes or drops suspicious traffic
 5. Recovery & Reporting → Logs attack details and restores normal operation
 
+
+![image](https://github.com/user-attachments/assets/6858ee9f-80f0-4255-a506-26a82b9f6179)
+
+
+
+
  -- **Working**
  
 ![image](https://github.com/user-attachments/assets/f09df8a6-17d2-44b5-ac51-b95aec83640e)
+
+To evaluate the DDoS Protection System, we first set up a cloud-based environment using AWS EC2 instances. One EC2 instance was configured as a web server hosting a sample website, while another EC2 instance was used to simulate DDoS attacks. The primary objective was to analyze whether the developed DDoS Protection System could effectively detect and mitigate attacks while maintaining service availability. The testing of the DDoS Protection System was conducted in a cloud-based environment using AWS EC2 instances. The primary objective was to host a sample website, launch simulated DDoS attacks, and evaluate the effectiveness of the protection tool in detecting and mitigating malicious traffic. Two EC2 instances were created, one functioning as a web server hosting a sample website and another as an attack machine generating DDoS traffic. The web server was configured using Apache2 on an Ubuntu-based EC2 instance to replicate a real-world cloud service.
 
 
 Instance 1: Web Server (Victim)

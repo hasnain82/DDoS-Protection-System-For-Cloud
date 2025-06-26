@@ -1,5 +1,5 @@
 Title:- 
-DDoS Protection System for Cloud: Architecture and Tool.
+DDoS Protection System for Cloud.
 
 Background:-
 Many organization are using Cloud for hosting their web applications. The attackers can try to attack these webservers for achieving Denial of Service attack. Specifically, Distributed Denial-of-Service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network of Cloud infrastructure by overwhelming the target or its surrounding infrastructure with a flood of internet traffic. DDoS attacks achieve effectiveness by utilizing multiple compromised computer systems assources of attack traffic. Exploited machines can include computers and other networked resources. Therefore, it is essential to develop appropriate security tools to counter and protect against these attacks. 
